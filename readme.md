@@ -1,6 +1,6 @@
 # Git Config (Using gitbash)
 
-**Step: 1**
+**Step One**
 
 - get gitbash: download from [here](https://git-scm.com/downloads) install and open it
 - name: `git config --global user.name "Biswajit Biswas"`
@@ -10,7 +10,7 @@
 - generate SSH Key: `ssh-keygen -t rsa -C "jfbiswajit@gmail.com"`
 - copy the SSH key from: `id_rsa.pub`
 
-**Step: 2**
+**Step Two**
 - go to your github account settings and click SSH and GPC keys
 - click `new SSH key` button
 - give it a title
