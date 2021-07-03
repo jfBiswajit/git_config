@@ -23,7 +23,7 @@
 
 **Add shortcut (.gitconfig)**
 
-```
+```bash
 [user]
   name = Biswajit Biswas
   email = jfbiswajit@gmail.com
