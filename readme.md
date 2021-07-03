@@ -23,7 +23,7 @@
 
 **Add shortcut (.gitconfig)**
 
-[user]
+```[user]
 	name = Biswajit Biswas
 	email = jfbiswajit@gmail.com
 
@@ -34,4 +34,4 @@
 	rcm = commit --amend -m
 	cm = !git add . && git commit -m
 	lg = log --oneline
-  ps = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
+  ps = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"```
