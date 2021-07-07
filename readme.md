@@ -36,5 +36,5 @@
 	cm = !git add . && git commit -m
 	lg = log --oneline
 	co = checkout
-  ps = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
+  	ps = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
 ```
