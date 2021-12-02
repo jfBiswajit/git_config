@@ -29,12 +29,18 @@
 	email = jfbiswajit@gmail.com
 
 [alias]
-	alias = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	[user]
+	name = Biswajit Biswas
+	email = jfbiswajit@gmail.com
+
+[alias]
+	al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 	st = status
 	rs = !git reset --hard && git clean -fd
 	rcm = commit --amend -m
 	cm = !git add . && git commit -m
 	lg = log --oneline
 	co = checkout
-  	ps = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
+  	cnp = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
+
 ```
