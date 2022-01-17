@@ -25,19 +25,18 @@
 
 ```bash
 [user]
-	name = Biswajit Biswas
-	email = jfbiswajit@gmail.com
+        name = Biswajit Biswas
+        email = jfbiswajit@gmail.com
 [core]
-	autocrlf = true
-	editor = code --wait
+        autocrlf = true
+        editor = code --wait
 [alias]
-	al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-	st = status
-	rs = !git reset --hard && git clean -fd
-	rcm = commit --amend -m
-	cm = !git add . && git commit -m
-	lg = log --graph --oneline --decorate --since="12am"
-	co = checkout
-  	cnp = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
-
+        al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+        st = status
+        rs = !git reset --hard && git clean -fd
+        rcm = commit --amend -m
+        cm = !git add . && git commit -m
+        lg = log --graph --oneline --decorate --since="12am"
+        co = checkout
+        cnp = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
 ```
