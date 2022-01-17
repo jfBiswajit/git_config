@@ -38,6 +38,6 @@
 	cm = !git add . && git commit -m
 	lg = log --graph --oneline --decorate --since="12am"
 	co = checkout
-  cnp = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
+  	cnp = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
 
 ```
