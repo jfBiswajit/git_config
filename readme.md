@@ -38,12 +38,19 @@
         autocrlf = true
         editor = code --wait
 [alias]
+[user]
+        name = Biswajit Biswas
+        email = jfbiswajit@gmail.com
+[core]
+        autocrlf = true
+        editor = code --wait
+[alias]
         al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
         st = status
         rs = !git reset --hard && git clean -fd
-        rcm = commit --amend -m
+        amd = !git add . && git commit --amend -m
         cm = !git add . && git commit -m
-        lg = log --reverse --oneline --decorate --since="6am"
+        lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim$
         co = checkout
         cnp = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
 ```
