@@ -24,19 +24,20 @@
 **Add shortcut (.gitconfig)**
 
 ```bash
-        [user]
-                name = Biswajit Biswas
-                email = jfbiswajit@gmail.com
-        [core]
-                autocrlf = true
-                editor = code --wait
-        [alias]
-                al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-                st = status
-                rs = !git reset --hard && git clean -fd
-                amd = !git add . && git commit --amend -m
-                cm = !git add . && git commit -m
-                lg = log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %$
-                co = checkout
-                cnp = "!f() { git add -A && git commit -m \"$@\" && git push origin HEAD; }; f"
+[user]
+  name = Biswajit Biswas
+  email = jfbiswajit@gmail.com
+  
+[core]
+  autocrlf = true
+  editor = code --wait
+  
+[alias]
+  al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+  st = status
+  rs = !git reset --hard && git clean -fd
+  amd = !git add . && git commit --amend -m
+  cm = !git add . && git commit -m
+  co = checkout
+  lg = log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %$
 ```
