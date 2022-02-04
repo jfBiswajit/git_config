@@ -21,6 +21,15 @@
 - connection: `ssh -T git@github.com` it will show your github user name (jfbiswajit)
 - config details: `git config --global --list` it will show you your all git config details
 
+**SSH settings optinal**
+```bash
+  Host github.com
+  User jfbiswajit@gmail.com
+  HostName ssh.github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa
+```
+
 **Add shortcut (.gitconfig)**
 
 ```bash
