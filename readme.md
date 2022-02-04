@@ -1,4 +1,4 @@
-# Git Config (Using gitbash)
+# Git Bash
 
 **Step One**
 
