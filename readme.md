@@ -28,6 +28,7 @@
   HostName ssh.github.com
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_rsa
+  Port 443
 ```
 
 **Add shortcut (.gitconfig)**
