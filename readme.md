@@ -37,11 +37,9 @@
 [user]
   name = Biswajit Biswas
   email = jfbiswajit@gmail.com
-  
 [core]
   autocrlf = true
   editor = code --wait
-  
 [alias]
   al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
   st = status
