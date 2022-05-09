@@ -35,7 +35,7 @@
 
 ```bash
 [core]
-	editor = \"D:\\Program Files\\Microsoft VS Code\\bin\\code\" --wait
+  editor = \"D:\\Program Files\\Microsoft VS Code\\bin\\code\" --wait
 [user]
   name = Biswajit Biswas
   email = jfbiswajit@gmail.com
@@ -55,10 +55,10 @@
   ps = push origin 
   pl = pull origin
 [filter "lfs"]
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+  clean = git-lfs clean -- %f
 [init]
-	defaultBranch = master 
+  defaultBranch = master
 ```
