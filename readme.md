@@ -41,7 +41,7 @@
   al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
   st = status
   rs = !git reset --hard && git clean -fd
-  amd = git commit --amend -m
+  am = git commit --amend -m
   cm = !git add . && git commit -m
   sw = switch
   lg = log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --since="6am"
