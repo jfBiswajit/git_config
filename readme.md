@@ -34,14 +34,9 @@
 **Add shortcut (.gitconfig)**
 
 ```bash
-[core]
-  editor = \"D:\\Program Files\\Microsoft VS Code\\bin\\code\" --wait
 [user]
   name = Biswajit Biswas
   email = jfbiswajit@gmail.com
-[core]
-  autocrlf = true
-  editor = code --wait
 [alias]
   al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
   st = status
@@ -52,13 +47,5 @@
   lg = log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --since="6am"
   sta = git stash save
   spp = git stash pop
-  ps = push origin 
-  pl = pull origin
-[filter "lfs"]
-  smudge = git-lfs smudge -- %f
-  process = git-lfs filter-process
-  required = true
-  clean = git-lfs clean -- %f
-[init]
-  defaultBranch = master
+  pp = !git pull && git push
 ```
