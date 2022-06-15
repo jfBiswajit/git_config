@@ -48,4 +48,7 @@
   sta = git stash save
   spp = git stash pop
   pp = !git pull && git push
+[merge]
+	ff = no
+	commit = no
 ```
