@@ -46,4 +46,5 @@
   sw = switch
   lg = log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --since="6am"
   pp = !git pull --no-ff && git push
+  br = branch
 ```
