@@ -31,20 +31,21 @@
   Port 443
 ```
 
-**Add shortcut (.gitconfig)**
+**Create Alias (.gitconfig)**
 
 ```bash
 [user]
-  name = Biswajit Biswas
-  email = jfbiswajit@gmail.com
+    name = Biswajit Biswas
+    email = jfbiswajit@gmail.com
 [alias]
-  al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-  st = status
-  rs = !git reset --hard && git clean -fd
-  am = git commit --amend -m
-  cm = !git add . && git commit -m
-  sw = switch
-  lg = log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --since="6am"
-  pp = !git pull --no-ff && git push
-  br = branch
+    al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+    st = status
+    rs = !git reset --hard && git clean -fd
+    am = git commit --amend -m
+    cm = !git add . && git commit -m
+    sw = switch
+    lg = log --graph --abbrev-commit --decorate --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all --since="6am"
+    pp = !git pull --no-ff && git push
+    br = branch
+    cf = diff --name-only --diff-filter=U
 ```
