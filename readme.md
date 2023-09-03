@@ -48,10 +48,9 @@
   gtc = reset --merge
   sw = switch
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-  pp = !git pull origin $(git branch --show-current) && git push origin $(git branch --show-current)
   br = branch
 	amd = !git add . && git commit --amend --no-edit
-  dep = !git add . && git commit -m "\"DEP: Deploy to the server\"" && git push origin HEAD
+  pp = !git add . && git commit -m "\"chore: Quick push and pull\"" && git push origin HEAD
 
 [core]
   editor = nano
