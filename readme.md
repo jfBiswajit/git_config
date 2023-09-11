@@ -39,7 +39,6 @@
 [user]
   name = Biswajit Biswas
   email = jfbiswajit@gmail.com
-
 [alias]
   al = !git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
   st = status
@@ -50,7 +49,7 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   br = branch
 	amd = !git add . && git commit --amend --no-edit
-  pp = !git add . && git commit -m "\"chore: Quick push and pull\"" && git push origin HEAD
+  pp = !git add . && git commit -m "\"feat: Quick updates and sync\"" && git push origin HEAD
 
 [core]
   editor = nano
